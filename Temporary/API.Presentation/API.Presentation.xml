@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:API.Presentation.Controllers.CommentController.GetComments">
+            <summary>
+            Gets the list of all comments
+            </summary>
+            <returns>The comments list</returns>
+        </member>
+        <member name="M:API.Presentation.Controllers.CommentController.CreateComment(Shared.DataTransferObjects.CommentForCreationDto)">
+            <summary>
+            Creates a newly created comment
+            </summary>
+            <param name="comment"></param>
+            <returns>A newly created comment</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>
+            <response code="422">If the model is invalid</response>
+        </member>
+        <member name="M:API.Presentation.Controllers.HotelController.GetHotels">
+            <summary>
+            Gets the list of all hotels
+            </summary>
+            <returns>The hotels list</returns>
+        </member>
+        <member name="M:API.Presentation.Controllers.HotelController.Createhotel(Shared.DataTransferObjects.HotelForCreationDto)">
+            <summary>
+            Creates a newly created hotel
+            </summary>
+            <param name="hotel"></param>
+            <returns>A newly created hotel</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>
+            <response code="422">If the model is invalid</response>
+        </member>
+        <member name="M:API.Presentation.Controllers.ReplyController.GetReplys">
+            <summary>
+            Gets the list of all replys
+            </summary>
+            <returns>The replys list</returns>
+        </member>
+        <member name="M:API.Presentation.Controllers.ReplyController.CreateReply(Shared.DataTransferObjects.ReplyForCreationDto)">
+            <summary>
+            Creates a newly created reply
+            </summary>
+            <param name="reply"></param>
+            <returns>A newly created reply</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>
+            <response code="422">If the model is invalid</response>
+        </member>
+    </members>
+</doc>
